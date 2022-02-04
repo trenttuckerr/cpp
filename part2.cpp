@@ -39,5 +39,5 @@ void sumByReference(int &num) {
     for(int i = 1; i < num; i++) { // for loop will run from one until one less than num inclusive
         count+=i; //i is added to count to figure what number will be added to num
     } // end for loop 
-    num+=times; // num is computed to the sum of integers from 1 to the alias
+    num+=count; // num is computed to the sum of integers from 1 to the alias
 } // end sumByReference

@@ -10,8 +10,8 @@
 using namespace std;
 
 inline double circleArea(const double radius) {
-    return 3.14159 * (radius * radius); 
-}
+    return 3.14159 * (radius * radius); // calculates area using formula 
+} // end circleArea
 
 int main() {
     double rad; // declares the radius variable as a double so it can be used in more cases
@@ -21,9 +21,9 @@ int main() {
         cin >> rad; // assigns the input to rad
         if (rad == -1) {
             break;  // breaks due to user entering the ending integer
-        }
+        } // end if
         cout << "Area of circle with radius " << rad << " is " << circleArea(rad) << endl; // calls inline function to find area
         cout << endl;
-    }
-    cout  <<  "Good bye!" << endl;
-}
+    } // end while
+    cout << "Good bye!" << endl;
+} // end main
